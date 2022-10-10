@@ -48,3 +48,31 @@ button:hover {
     background-color: blanchedalmond;
     color: #000;
 }
+
+@media screen and (max-width: 480px) {
+    body {
+        margin-top: 10rem;
+    }
+
+    #title {
+        font-size: 22px;
+        margin-bottom: 2rem;
+    }
+
+    form #day, label {
+        font-size: 20px;
+        margin-bottom: 1.5rem;
+    }
+
+    ::placeholder {
+        text-align: center;
+        font-size: 18px;
+    }
+
+    button {
+        font-size: 20px;
+        margin: 1rem auto;
+        padding: 10px 30px;
+        
+    }
+}
