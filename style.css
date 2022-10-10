@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: blanchedalmond;
+    color: #000;
+    text-align: center;
+    margin-top: 10rem;
+}
+
+#title {
+    font-size: 50px;
+    margin-bottom: 5rem;
+}
+
+
+form #day, label {
+    font-size: 30px;
+    margin-bottom: 3rem;
+}
+
+form input {
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    
+}
+
+::placeholder {
+    text-align: center;
+    font-size: 25px;
+}
+
+button {
+    font-size: 22px;
+    margin-top: 1rem;
+    padding: 10px 60px;
+    border-radius: 10px;
+    font-weight: bolder;
+    background-color: #000;
+    color: blanchedalmond;
+}
+
+button:hover {
+    background-color: blanchedalmond;
+    color: #000;
+}
